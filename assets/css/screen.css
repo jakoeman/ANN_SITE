@@ -18,7 +18,7 @@ html {
   line-height: 1.626em; /*26/16=1.626em*/
   /* Background image came from Toptal.com and is called Diagmonds - Created by INS
   I modified the color of the image*/
-  background-image: url("/assets/images/dark-paths.png");
+  background-image: url("../../assets/images/dark-paths.png");
   background-repeat: repeat;
   scroll-behavior: smooth;
 }
