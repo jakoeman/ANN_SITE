@@ -18,13 +18,13 @@ html {
   line-height: 1.626em; /*26/16=1.626em*/
   /* Background image came from Toptal.com and is called Diagmonds - Created by INS
   I modified the color of the image*/
-  background-image: url("/assets/images/diagmonds_@2X_light_black.jpg");
+  background-image: url("/assets/images/dark-paths.png");
   background-repeat: repeat;
   scroll-behavior: smooth;
 }
 main {
   padding: 1.222em 1em; /*19.5/16=1.222em*/
-  background-color: #bfbfbf;
+  background-color: grey;
   padding-bottom: 2.777em; /*44.5/16=2.777em*/
   box-shadow: 0 0.375em 0.3125em black;  /*6/16=.375   5/16=.3125*/
 }
@@ -102,7 +102,7 @@ main {
   flex-wrap: wrap;
 }
 .menu {
-  background-color: #0f033d;
+  background-color: #2e0452;
   list-style-type: none;
   flex-grow: 1;
   display: flex;
@@ -176,13 +176,18 @@ ul.resume-list {
 
 .full-page {
   /*height: 85vh;*/
-  background-color: grey;
+  background-color: #5b0042;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .inner-container {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
+  background-color: white;
 }
 /*img.inner-container {
   object-fit: cover;
@@ -209,12 +214,13 @@ ul.resume-list {
   /*margin: auto;*/
   /*overflow: auto;*/
 
-  display: block;
+  display: flex;
+  align-items : center;
   width: 100%;
   height: 100%;
 }
 .item-text {
-  padding: 2em;
+  padding: 0.25em;
 }
 /* Module/Modular Section (class or descedent selectors; repeating specific styles) */
 
@@ -319,10 +325,30 @@ ul.resume-list {
     grid-column: 1;
     grid-row: 1 / 3;
   }
+
+}
+@media screen and (min-width: 78.75em) {
+  html {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  main {
+    border-radius: 0 0 0.55em 0.55em;
+  }
+  .list-grid {
+    grid-template-columns: repeat(5,1fr);
+  }
+  #cisco-list {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
   .item-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 1em;
+  }
+  .item-text {
+    padding: .25em;
   }
 }
 @media screen and (min-width: 100em) {
