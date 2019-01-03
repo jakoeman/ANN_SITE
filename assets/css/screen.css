@@ -199,7 +199,7 @@ ul.resume-list {
 }
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
   grid-column-gap: 1em;
 }
 .item-pic {
@@ -317,6 +317,11 @@ ul.resume-list {
   #cisco-list {
     grid-column: 1;
     grid-row: 1 / 3;
+  }
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1em;
   }
 }
 @media screen and (min-width: 100em) {
