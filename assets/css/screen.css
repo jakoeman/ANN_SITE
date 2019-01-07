@@ -132,6 +132,7 @@ main {
   font-size: 1.25em;
   padding-top: 0.33em;
   padding-bottom: 0.33em;
+  font-weight: bold;
 }
 /*Controls color transitions for hovering*/
 a.linkedin {
@@ -180,7 +181,7 @@ ul.resume-list {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-  /*padding-bottom: 5%;*/
+  padding-bottom: 0.5em;
 }
 .inner-container {
   /*padding-left: 5%;
@@ -189,6 +190,8 @@ ul.resume-list {
   padding-bottom: 5%;*/
   padding: 1em;
   background-color: white;
+  border-radius: 0.5em;
+  box-shadow: 0 0.375em 0.3125em black;  /*6/16=.375   5/16=.3125*/
 }
 /*img.inner-container {
   object-fit: cover;
