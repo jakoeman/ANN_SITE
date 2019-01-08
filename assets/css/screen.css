@@ -103,8 +103,8 @@ ul.resume-list {
 }
 .full-page {
   /*height: 85vh;*/
-  background-image: url("../../assets/images/congruent_pentagon.png");
-  /*background-color: #5b0042;*/
+  /*background-image: url("../../assets/images/congruent_pentagon.png");*/
+  background-color: #5b0042;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
