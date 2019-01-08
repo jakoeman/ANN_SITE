@@ -24,8 +24,8 @@ html {
 }
 main {
   /*padding: 1.222em 1em; /*19.5/16=1.222em*/
-  background-image: url("../../assets/images/congruent_pentagon.png");
-  /*background-color: #5b0042;*/
+  /*background-image: url("../../assets/images/congruent_pentagon.png");*/
+  background-color: #5b0042;
   padding-bottom: 2.777em; /*44.5/16=2.777em*/
   box-shadow: 0 0.375em 0.3125em black;  /*6/16=.375   5/16=.3125*/
 }
