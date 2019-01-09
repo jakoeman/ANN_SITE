@@ -149,6 +149,13 @@ ul.resume-list {
 }
 .main-section{
   background-color: grey;
+  /*box-shadow: 0px 13px 25px 0px rgba(0,0,0,1);*/
+
+  box-shadow: 0 0.375em 0.3125em black;  /*6/16=.375   5/16=.3125*/
+}
+.main-container{
+  padding-bottom: 1em;
+  box-shadow: 0 0.375em 0.3125em black;  /*6/16=.375   5/16=.3125*/
 }
 .footer {
   position: absolute;
